@@ -244,7 +244,7 @@ def main():
 
         Label(text='Geschlecht: ', font='OpenSansB', offset=-62),
         CheckBox(name='Geschlecht', value='männlich', tooltip='männlich', borderWidth=2, forceBorder=True, offset=60),
-        Label(text='maennlich', font='OpenSansR', offset=15),
+        Label(text='männlich', font='OpenSansR', offset=15),
         CheckBox(name='Geschlecht', value='weiblich', tooltip='weiblich', borderWidth=2, forceBorder=True, offset=130),
         Label(text='weiblich', font='OpenSansR', offset=85),
         CheckBox(name='Geschlecht', value='divers', tooltip='divers', borderWidth=2, forceBorder=True, offset=220),
