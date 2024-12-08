@@ -332,15 +332,18 @@ Vereinsvorstand angehören.''', small),
 
         Paragraph('Beiträge (Stand 1. Januar 2024)', subtitle),
         Paragraph('<b>Einmalige Aufnahmegebühr: ein Monatsbeitrag</b>'),
+        
+        Paragraph(' ', spacer),
+        
         Table(
             data=[
-                ['', 'Monatlich', 'Jährlich', 'Jährlich'],
-                ['', 'bei Eintritt im laufendenJahr pro Monat', 'Zahlung nach 31.3.', 'Zahlung bis 31.3.'],
-                ['aktives Mitglied', '9,00 €', '108,00 €', '90,00€'],
-                ['Studenten/Azubis (max. nur bis zum 27. Lebensjahr)', '6,50 €', '78,00 €', '65,00 €'],
-                ['Frauen-Gymnastik', '6,00 €', '72,00 €', '60,00 €'], ['Kinder / Schüler', '5,50 €', '66,00 €', '55,00 €'],
-                ['Arbeitslose', '5,00 €', '60,00 €', '50,00 €'], ['passives Mitglied', '3,50 €', '42,00 €', '35,00 €'],
-                ['Paare', '12,00 €', '144,00 €', '120,00 €'], ['Familie (2 Kinder)', '17,00 €', '204,00 €', '170,00 €'], ],
+                ['', 'Monatlich', 'Jährlich'],
+                ['', 'bei Eintritt im laufendenJahr pro Monat', ''],
+                ['aktives Mitglied', '9,00 €', '108,00 €'],
+                ['Studenten/Azubis (max. nur bis zum 27. Lebensjahr)', '6,50 €', '78,00 €'],
+                ['Frauen-Gymnastik', '6,00 €', '72,00 €', '60,00 €'], ['Kinder / Schüler', '5,50 €', '66,00 €'],
+                ['Arbeitslose', '5,00 €', '60,00 €', '50,00 €'], ['passives Mitglied', '3,50 €', '42,00 €'],
+                ['Paare', '12,00 €', '144,00 €', '120,00 €'], ['Familie (2 Kinder)', '17,00 €', '204,00 €'], ],
             style=[
                 ('GRID', (0, 2), (-1, -1), 1, colors.gray),
                 ('LINEAFTER', (0, 0), (4, -1), 1, colors.gray),
