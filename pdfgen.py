@@ -248,6 +248,7 @@ def main():
         CheckBox(name='Geschlecht', value='weiblich', tooltip='weiblich', borderWidth=2, forceBorder=True, offset=130),
         Label(text='weiblich', font='OpenSansR', offset=85),
         CheckBox(name='Geschlecht', value='divers', tooltip='divers', borderWidth=2, forceBorder=True, offset=220),
+        Label(text='divers', font='OpenSansR', offset=175),
         
         Paragraph(' ', spacer),
 
