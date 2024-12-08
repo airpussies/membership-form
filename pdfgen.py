@@ -293,6 +293,7 @@ def main():
         
         Paragraph(' ', spacer),
         CheckBox(name='Zahlung', value='Satzung', tooltip='Die Vereinssatzung erkenne ich an.', borderWidth=2, forceBorder=True, offset=-0),
+        CheckBox(name='Zahlung', value='dummy', tooltip='', borderWidth=2, forceBorder=True, offset=-0),
         Label(text='Die Vereinssatzung erkenne ich an.', font='OpenSansR', offset=-45),
 
         Paragraph(' ', spacer),
@@ -359,7 +360,7 @@ Vereinsvorstand angehören.''', small),
          In der Badminitonabteilung wird ein jählicher Zustatzbeitrag von 20,00 € erhoben.
          In der Tennisabteilung wird die Höhe der Beiträge sowie Zahlungsweise in der Mitgliederversammlung dieser Abteilung festgelegt. (siehe dort)''',
                   small),
-        Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding e.V. c/o Hüske,
+        Paragraph('''Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding e.V. c/o Hüske,
 Niederbarnimstraße 6, 10247 Berlin''', style),
 
     ]
