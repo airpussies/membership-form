@@ -19,6 +19,6 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: tsv.pdf
           asset_name: tsv.pdf
-          tag: ${{ github.ref }}
+          tag: ${{ github.event.repository.updated_at }}
           overwrite: true
           body: "This is my release text"      
