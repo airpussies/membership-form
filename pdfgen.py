@@ -235,7 +235,6 @@ def main():
         Paragraph(' ', spacer),
 
         TextField(name='EMail', tooltip='Geburtsdatum', height=FontSize * 1.5, width=230, offset=0),
-        TextField(name='Mobiltelefon', tooltip='Telefon', height=FontSize * 1.5, width=230, offset=240),
         Paragraph(' ', spacer),
         Label(text='E-Mail (z.B. für elektronische Beitragsrechnung bei Bankeinzug)', font='OpenSansL', font_size=FontSize * TextFieldLabelSizeAdjust, offset=-60, yoffset=3),
         
