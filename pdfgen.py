@@ -267,7 +267,7 @@ def main():
 
         Paragraph('<b>Beitragszahlung:</b>', spacer2),
         
-        Label(text='Der Beitrag wird jährlich zum 31. März von meinem Konto abgebucht werden', font='OpenSansR', offset=-45),
+        Paragraph('''Der Beitrag wird jährlich zum 31. März von meinem Konto abgebucht werden''', style),
 
         Paragraph(' ', spacer),
         Rect(width=495, height=70),
