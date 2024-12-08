@@ -291,7 +291,6 @@ def main():
 
         Paragraph(' ', spacer),
         
-        Paragraph(' ', spacer),
         CheckBox(name='Zahlung', value='Satzung', tooltip='Die Vereinssatzung erkenne ich an.', borderWidth=2, forceBorder=True, offset=-0),
         CheckBox(name='Zahlung', value='dummy', tooltip='', borderWidth=2, forceBorder=True, offset=-0),
         Label(text='Die Vereinssatzung erkenne ich an.', font='OpenSansR', offset=-45),
@@ -331,9 +330,7 @@ Einspruch entscheidet das Vereinsgericht. Das Vereinsgericht setzt sich aus je e
 Vereinsvorstand angehören.''', small),
 
         Paragraph('Beiträge (Stand 1. Januar 2024)', subtitle),
-        Paragraph('<b>Einmalige Aufnahmegebühr: ein Monatsbeitrag</b>'),
-        
-        Paragraph(' ', spacer),
+        Paragraph('<b>Einmalige Aufnahmegebühr: ein Monatsbeitrag</b>', small),
         
         Table(
             data=[
