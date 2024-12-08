@@ -238,7 +238,7 @@ def main():
         TextField(name='Mobiltelefon', tooltip='Telefon', height=FontSize * 1.5, width=230, offset=240),
         Paragraph(' ', spacer),
         Label(text='E-Mail (z.B. für elektronische Beitragsrechnung bei Bankeinzug)', font='OpenSansL', font_size=FontSize * TextFieldLabelSizeAdjust, offset=-60, yoffset=3),
-        Label(text='Mobiltelefon', font='OpenSansL', font_size=FontSize * TextFieldLabelSizeAdjust, offset=180, yoffset=3),
+        
 
         Paragraph(' ', spacer),
 
@@ -248,8 +248,7 @@ def main():
         CheckBox(name='Geschlecht', value='weiblich', tooltip='weiblich', borderWidth=2, forceBorder=True, offset=130),
         Label(text='weiblich', font='OpenSansR', offset=85),
         CheckBox(name='Geschlecht', value='divers', tooltip='divers', borderWidth=2, forceBorder=True, offset=220),
-        TextField(name='divers', value='divers', tooltip='divers', height=FontSize * 1.5, width=230, offset=240),
-
+        
         Paragraph(' ', spacer),
 
         Label(text='Ich bin:', font='OpenSansB', offset=-62),
@@ -264,9 +263,11 @@ def main():
                  offset=340),
         Label(text='Student/Azubi bis 27. Lj.', font='OpenSansR', offset=295),
 
+        Paragraph(' ', spacer),
+
         Paragraph('<b>Beitragszahlung:</b>', spacer2),
-        CheckBox(name='Zahlung', value='Lastschrift', tooltip='Lastschrift', borderWidth=2, forceBorder=True, offset=-0),
-        Label(text='Der Beitrag soll jährlich zum 31. März von meinem Konto abgebucht werden', font='OpenSansR', offset=-45),
+        
+        Label(text='Der Beitrag wird jährlich zum 31. März von meinem Konto abgebucht werden', font='OpenSansR', offset=-45),
 
         Paragraph(' ', spacer),
         Rect(width=495, height=70),
@@ -289,9 +290,7 @@ def main():
         Label(text='Datum/Unterschrift des Kontoinhabers', font='OpenSansL', font_size=FontSize * TextFieldLabelSizeAdjust, offset=180, yoffset=3),
 
         Paragraph(' ', spacer),
-        CheckBox(name='Zahlung', value='SelbstUeberweisen', tooltip='Überweisung', borderWidth=2, forceBorder=True, offset=-0),
-        Label(text='Den Beitrag überweise ich selbstständig einmal jährlich.', font='OpenSansR', offset=-45),
-
+        
         Paragraph(' ', spacer),
         CheckBox(name='Zahlung', value='Satzung', tooltip='Die Vereinssatzung erkenne ich an.', borderWidth=2, forceBorder=True, offset=-0),
         Label(text='Die Vereinssatzung erkenne ich an.', font='OpenSansR', offset=-45),
@@ -330,7 +329,7 @@ seiner Beitragspflicht nach Mahnung nicht nachgekommen ist. Dem Mitglied steht g
 Einspruch entscheidet das Vereinsgericht. Das Vereinsgericht setzt sich aus je einem Mitglied jeder Abteilung zusammen. Die Mitglieder des Ehrengerichts dürfen nicht dem
 Vereinsvorstand angehören.''', small),
 
-        Paragraph('Beiträge (Stand 1. Januar 2018)', subtitle),
+        Paragraph('Beiträge (Stand 1. Januar 2024)', subtitle),
         Paragraph('<b>Einmalige Aufnahmegebühr: ein Monatsbeitrag</b>'),
         Table(
             data=[
@@ -360,8 +359,8 @@ Vereinsvorstand angehören.''', small),
          In der Badminitonabteilung wird ein jählicher Zustatzbeitrag von 20,00 € erhoben.
          In der Tennisabteilung wird die Höhe der Beiträge sowie Zahlungsweise in der Mitgliederversammlung dieser Abteilung festgelegt. (siehe dort)''',
                   small),
-        Paragraph('''Postbank Berlin, IBAN: DE12 1001 0010 0037 2331 07 (Bitte unbedingt die Abteilung angeben!)
-        Eintrittserklärung bitte senden an: TSV Berlin-Wedding, Geschäftsstelle: c/o Andreas Mondroch, Uferstr. 18, 13357 Berlin''', style),
+        Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding e.V. c/o Hüske,
+Niederbarnimstraße 6, 10247 Berlin''', style),
 
     ]
 
