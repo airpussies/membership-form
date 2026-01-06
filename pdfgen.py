@@ -30,6 +30,12 @@ spacer = ParagraphStyle(
     fontName='OpenSansR',
     spaceAfter=1,
 )
+spacer_s = ParagraphStyle(
+    name='Normal',
+    fontName='OpenSansR',
+    spaceAfter=0,
+    fontSize=FontSize/2,
+)
 spacer2 = ParagraphStyle(
     name='Normal',
     fontName='OpenSansR',
@@ -332,7 +338,7 @@ Vereinsvorstand angehören.''', small),
         Paragraph('Beiträge (Stand 1. Januar 2026)', subtitle),
         Paragraph('<b>Einmalige Aufnahmegebühr: ein Monatsbeitrag</b>', small),
         
-        Table(
+        Table(spaceAfter=6, spaceBefore=-3, rowHeights=FontSize*1.8,
             data=[
                 ['', 'Monatlich', 'Jährlich'],
                 ['aktives Mitglied', '9,00 €', '108,00 €'],
@@ -341,23 +347,20 @@ Vereinsvorstand angehören.''', small),
                 ['Arbeitslose', '5,00 €', '60,00 €'], ['passives Mitglied', '3,50 €', '42,00 €'],
                 ['Paare', '12,00 €', '144,00 €'], ['Familie (2 Kinder)', '17,00 €', '204,00 €'], ],
             style=[
-                ('GRID', (0, 2), (-1, -1), 1, colors.gray),
-                ('LINEAFTER', (0, 0), (4, -1), 1, colors.gray),
+                ('GRID', (0, 1), (-1, -1), 1, colors.gray), # frame/grid for body
+                ('LINEAFTER', (0, 0), (4, -1), 1, colors.gray), # vertical lines in header
                 ('FONTNAME', (0, 0), (-1, 0), 'OpenSansB'),  # header
                 ('FONTNAME', (0, 1), (-1, -1), 'OpenSansL'),  # body
-                ('TOPPADDING', (0, 1), (-1, -1), 1),
-                ('BOTTOMPADDING', (0, 1), (-1, -1), 1),
-                ('SPAN', (0, 0), (0, 1)),
-                ('VALIGN', (0, 1), (-1, 1), 'MIDDLE'),
-                ('FONTSIZE', (0, 0), (-1, 0), FontSize - 2),
-                ('FONTSIZE', (0, 1), (-1, 1), FontSize - 3),
-                ('FONTSIZE', (0, 2), (-1, -1), FontSize - 2),
+                ('ALIGN', (1, 1), (-1, -1), 'CENTER'),
+                ('VALIGN', (0, 1), (-1, -1), 'MIDDLE'),
+                ('FONTSIZE', (0, 0), (-1, -1), FontSize - 2),                
             ]
         ),
         Paragraph('''In den Abteilungen Badminton und Volleyball wird ein Zusatzbeitrag erhoben, der z.Zt. 24,00 € für volljähige, aktive Mitglieder und 12,00 € für
          jugendliche und passive Mitglieder beträgt.
          In der Tennisabteilung wird die Höhe der Beiträge sowie Zahlungsweise in der Mitgliederversammlung dieser Abteilung festgelegt. (siehe dort)''',
-                  small),        
+                  small),      
+        Paragraph(' ', spacer_s),
         Paragraph('''Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding 1862 e.V. c/o Hüske,
 Niederbarnimstraße 6, 10247 Berlin''', style),
 
