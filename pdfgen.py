@@ -357,9 +357,8 @@ Vereinsvorstand angehören.''', small),
         Paragraph('''In den Abteilungen Badminton und Volleyball wird ein Zusatzbeitrag erhoben, der z.Zt. 24,00 € für volljähige, aktive Mitglieder und 12,00 € für
          jugendliche und passive Mitglieder beträgt.
          In der Tennisabteilung wird die Höhe der Beiträge sowie Zahlungsweise in der Mitgliederversammlung dieser Abteilung festgelegt. (siehe dort)''',
-                  small),
-        
-        Paragraph('''Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding e.V. c/o Hüske,
+                  small),        
+        Paragraph('''Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding 1862 e.V. c/o Hüske,
 Niederbarnimstraße 6, 10247 Berlin''', style),
 
     ]
