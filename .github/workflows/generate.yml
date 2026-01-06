@@ -21,7 +21,7 @@ jobs:
       - name: Install the project
         run: uv sync --locked --all-extras --dev        
 
-      - run: python pdfgen.py
+      - run: uv run pdfgen.py
 
       - name: Put current date into a variable
         run: |
