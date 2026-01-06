@@ -267,7 +267,7 @@ def main():
 
         Paragraph('<b>Beitragszahlung:</b>', spacer2),
         
-        Paragraph('''Der Beitrag wird jährlich zum 31. März von meinem Konto abgebucht werden''', style),
+        Paragraph('''Der Beitrag wird jährlich bis zum 31. März von meinem Konto abgebucht werden''', style),
 
         Paragraph(' ', spacer),
         Rect(width=495, height=70),
@@ -329,13 +329,12 @@ seiner Beitragspflicht nach Mahnung nicht nachgekommen ist. Dem Mitglied steht g
 Einspruch entscheidet das Vereinsgericht. Das Vereinsgericht setzt sich aus je einem Mitglied jeder Abteilung zusammen. Die Mitglieder des Ehrengerichts dürfen nicht dem
 Vereinsvorstand angehören.''', small),
 
-        Paragraph('Beiträge (Stand 1. Januar 2024)', subtitle),
+        Paragraph('Beiträge (Stand 1. Januar 2026)', subtitle),
         Paragraph('<b>Einmalige Aufnahmegebühr: ein Monatsbeitrag</b>', small),
         
         Table(
             data=[
                 ['', 'Monatlich', 'Jährlich'],
-                ['', 'bei Eintritt im laufendenJahr pro Monat', ''],
                 ['aktives Mitglied', '9,00 €', '108,00 €'],
                 ['Studenten/Azubis (max. nur bis zum 27. Lebensjahr)', '6,50 €', '78,00 €'],
                 ['Frauen-Gymnastik', '6,00 €', '72,00 €'], ['Kinder / Schüler', '5,50 €', '66,00 €'],
@@ -355,11 +354,11 @@ Vereinsvorstand angehören.''', small),
                 ('FONTSIZE', (0, 2), (-1, -1), FontSize - 2),
             ]
         ),
-        Paragraph('''In der Volleyballabteilung wird ein Zusatzbeitrag erhoben, der z.Zt. 24,00 € für volljähige, aktive Mitglieder und 12,00 € für
+        Paragraph('''In den Abteilungen Badminton und Volleyball wird ein Zusatzbeitrag erhoben, der z.Zt. 24,00 € für volljähige, aktive Mitglieder und 12,00 € für
          jugendliche und passive Mitglieder beträgt.
-         In der Badminitonabteilung wird ein jählicher Zustatzbeitrag von 20,00 € erhoben.
          In der Tennisabteilung wird die Höhe der Beiträge sowie Zahlungsweise in der Mitgliederversammlung dieser Abteilung festgelegt. (siehe dort)''',
                   small),
+        
         Paragraph('''Das Eintrittsformular bitte bei der Abteilungsleitung abgeben oder in Abstimmung senden an TSV Berlin-Wedding e.V. c/o Hüske,
 Niederbarnimstraße 6, 10247 Berlin''', style),
 
