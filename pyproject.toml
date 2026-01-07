@@ -8,3 +8,8 @@ dependencies = [
     "reportlab>=4.4.7",
     "svglib>=1.6.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+]

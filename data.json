@@ -1,0 +1,32 @@
+{
+  "prices": {
+    "header": ["", "Monatlich", "Jährlich"],
+    "rows": [
+      ["aktives Mitglied", "9,00 €", "108,00 €"],
+      ["Studenten/Azubis (max. nur bis zum 27. Lebensjahr)", "6,50 €", "78,00 €"],
+      ["Frauen-Gymnastik", "6,00 €", "72,00 €"],
+      ["Kinder / Schüler", "5,50 €", "66,00 €"],
+      ["Arbeitslose", "5,00 €", "60,00 €"],
+      ["passives Mitglied", "3,50 €", "42,00 €"],
+      ["Paare", "12,00 €", "144,00 €"],
+      ["Familie (2 Kinder)", "17,00 €", "204,00 €"]
+    ],
+    "extra_info": [
+      "In den Abteilungen Badminton und Volleyball wird ein Zusatzbeitrag erhoben, der z.Zt. 24,00 € für volljähige, aktive Mitglieder und 12,00 € für jugendliche und passive Mitglieder beträgt.",
+      "In der Tennisabteilung wird die Höhe der Beiträge sowie Zahlungsweise in der Mitgliederversammlung dieser Abteilung festgelegt. (siehe dort)"
+    ],
+    "stand_date": "1. Januar 2026"
+  },
+  "legal_text": {
+    "section6": {
+      "title": "§6 Beiträge",
+      "text": "Zur Deckung der Vereinsausgaben wird von jedem Mitglied ein Beitrag erhoben, der jährlich zu entrichten ist. Der Beitrag ist bis zum 31. März des laufenden Geschäftsjahres auf das Konto des Vereins oder in bar an den Hauptkassierer bzw. vom Vereinsvorstand benannte andere Personen zu zahlen. Die Höhe des Beitrages wird von der Mitgliederversammlung festgesetzt. Bei Eintritt in den Verein innerhalb des laufenden Jahres ist der Beitrag vom Monat des Eintritts an anteilmäßig bis zum Jahresende im Voraus zu entrichten. Auf Antrag kann der Beitrag vom Vereinsvorstand ermäßigt oder erlassen werden. Mitglieder bis zum vollendeten 18. Lebensjahr zahlen einen ermäßigten Beitrag. Besondere Umlagen müssen von der Mitgliederversammlung beschlossen werden. Alle Mittel des Vereins dienen der Förderung aller Mitglieder im Sinne dieser Satzung (§§2 u. 3).",
+      "text2": "Kommt ein Vereinsmitglied in Zahlungsverzug, ergehen zwei schriftliche Mahnungen. Sind diese Mahnungen erfolglos, wird das gerichtliche Mahnverfahren eingeleitet, was zusätzliche Kosten verursacht. Auf Antrag ist hiermit der Ausschluss aus dem Verein verbunden."
+    },
+    "section7": {
+      "title": "§7 Ende der Mitgliedschaft",
+      "text1": "1.Mitglieds- und Funktionärsausweise sowie Sportkleidung und Geräte, die vom Verein zur Verfügung gestellt wurden, bleiben Eigentum des Vereins und müssen beim Austritt oder Ausschluss zurückgegeben werden. Der Austritt erfolgt durch schriftliche Mitteilung per Einschreiben an die Geschäftsstelle und kann nur am jeweiligen Jahresende erfolgen. Die schriftliche Kündigung muss bis spätestens 30. September eingegangen sein.",
+      "text2": "2. Ausschluss eines Mitgliedes erfolgt durch den Vereinsvorstand, wenn es gegen den Zweck des Vereins (§2) gröblich verstößt, das Ansehen des Vereins schädigt oder seiner Beitragspflicht nach Mahnung nicht nachgekommen ist. Dem Mitglied steht gegen den Ausschluss das Recht des Einspruchs beim Vereinsvorstand zu. Über diesen Einspruch entscheidet das Vereinsgericht. Das Vereinsgericht setzt sich aus je einem Mitglied jeder Abteilung zusammen. Die Mitglieder des Ehrengerichts dürfen nicht dem Vereinsvorstand angehören."
+    }
+  }
+}
