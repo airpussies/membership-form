@@ -89,7 +89,7 @@ class TextField(Flowable):
         form = self.canv.acroForm
         x, y = self.canv.absolutePosition(0, 0)
         self.options["y"] = y - FontSize
-        self.options["fillColor"] = colors.white
+        self.options["fillColor"] = colors.transparent
         self.options["borderWidth"] = 0.25
         if "offset" in self.options:
             self.options["x"] = x + self.options["offset"]
@@ -105,6 +105,7 @@ class CheckBox(Flowable):
         # Use Reportlab's default size if not user provided
         self.width = options.get("width", 0)
         self.height = options.get("height", 0)
+        # ponytail: stays white, ReportLab writes an invalid " rg" in checkbox appearance streams when transparent
         self.options["fillColor"] = colors.white
         self.options["borderWidth"] = 0.25
         if "width" in options:
